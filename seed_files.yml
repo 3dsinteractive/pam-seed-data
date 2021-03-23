@@ -1,0 +1,6 @@
+version: v1
+files:
+- name: customer_databases
+  file: customer_databases.json
+- name: contacts
+  file: contacts.json
