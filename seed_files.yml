@@ -2,5 +2,7 @@ version: v1
 files:
 - name: customer_databases
   file: customer_databases.json
+  id: id
 - name: contacts
   file: contacts.json
+  id: contact_id
