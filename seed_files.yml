@@ -1,6 +1,6 @@
 version: v1
 files:
-- name: customer_databases
+- name: mkt_customer_databases
   file: customer_databases.json
   id: id
   platform: mkt
