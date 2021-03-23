@@ -3,6 +3,8 @@ files:
 - name: customer_databases
   file: customer_databases.json
   id: id
+  platform: mkt
 - name: contacts
   file: contacts.json
   id: contact_id
+  platform: mkt
