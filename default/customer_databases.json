@@ -1,9 +1,9 @@
 [
 {
     "id" : "1q9UPFXo7FETvF8iIecsJDNTZOO",
-    "alias" : "my-ecommerce-anonymous-website-visitor",
-    "name" : "My Ecommerce - anonymous website visitor",
-    "description" : "This database collects the behavior and some public contact information of anonymous visitors on a website.",
+    "alias" : "my-ecommerce-db-a",
+    "name" : "My Ecommerce DB-A : Public Visitor",
+    "description" : "My Ecommerce DB-A : Public Visitor Customer Data.",
     "type" : "PUBLIC",
     "media_setting" : {
         "email" : {
@@ -53,9 +53,9 @@
 },
 {
     "id" : "1q9UxJ3p2F2KE5osUGbkKPNk2Bu",
-    "alias" : "my-ecommerce-login-website-visitor",
-    "name" : "My Ecommerce - login website visitor",
-    "description" : "This database collects the behavior and contact information of login customers on a website.",
+    "alias" : "my-ecommerce-db-b",
+    "name" : "My Ecommerce DB-B : Login Customer",
+    "description" : "My Ecommerce DB-B : Login Customer Database.",
     "type" : "LOGIN",
     "media_setting" : {
         "email" : {
@@ -101,6 +101,58 @@
     },
     "created_at" : "2021-03-23 09:25:44",
     "updated_at" : "2021-03-23 09:25:44",
+    "deleted_at" : null
+},
+{
+    "id" : "1qDAnGcu92WwRbdwDqAFQk41c4e",
+    "alias" : "my-ecommerce-db-c",
+    "name" : "My Ecommerce DB-C : Import CRM",
+    "description" : "My Ecommerce DB-C : Import CRM Customer Data",
+    "type" : "IMPORT",
+    "media_setting" : {
+    "email" : {
+        "is_key" : true,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "sms" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "line" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "facebook" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "web_notification" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "customer" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "mobile_notification_ios" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    },
+    "mobile_notification_android" : {
+        "is_key" : false,
+        "is_used" : true,
+        "is_encrypted" : false
+    }
+    },
+    "created_at" : "2021-03-24 16:39:11",
+    "updated_at" : "2021-03-24 16:39:11",
     "deleted_at" : null
 }
 ]

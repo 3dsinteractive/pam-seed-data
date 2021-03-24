@@ -1,0 +1,80 @@
+[
+    {
+        "id" : "1q9UPLdaLrreHvoYPfMg1aVY7Dc",
+        "alias" : "my-ecommerce-db-a-lastname",
+        "name" : "My Ecommerce DB-A : Public Visitor Lastname",
+        "description" : "Auto generated attribute lastname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-23 09:21:13",
+        "updated_at" : "2021-03-23 09:21:13",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-a"
+    },
+    {
+        "id" : "1qDAnFuYC4LZig8rEXDpxMwIMPV",
+        "alias" : "my-ecommerce-db-c-firstname",
+        "name" : "My Ecommerce DB-C : Import CRM Firstname",
+        "description" : "Auto generated attribute firstname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-24 16:39:11",
+        "updated_at" : "2021-03-24 16:39:11",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-c"
+    },
+    {
+        "id" : "1qDAnFyZJE4tQyG3kwg0KMBuZnw",
+        "alias" : "my-ecommerce-db-c-lastname",
+        "name" : "My Ecommerce DB-C : Import CRM Lastname",
+        "description" : "Auto generated attribute lastname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-24 16:39:11",
+        "updated_at" : "2021-03-24 16:39:11",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-c"
+    },
+    {
+        "id" : "1q9UPEt3vFxwncQYD97TPol2eC0",
+        "alias" : "my-ecommerce-db-a-firstname",
+        "name" : "My Ecommerce DB-A : Public Visitor Firstname",
+        "description" : "Auto generated attribute firstname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-23 09:21:13",
+        "updated_at" : "2021-03-23 09:21:13",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-a"
+    },
+    {
+        "id" : "1q9UxM3qXbIszYydv97vtgE8eqW",
+        "alias" : "my-ecommerce-db-b-lastname",
+        "name" : "My Ecommerce DB-B : Login Customer Lastname",
+        "description" : "Auto generated attribute lastname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-23 09:25:44",
+        "updated_at" : "2021-03-23 09:25:44",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-b"
+    },
+    {
+        "id" : "1q9UxOWzTUI95O9zUeyq5GW5wun",
+        "alias" : "my-ecommerce-db-b-firstname",
+        "name" : "My Ecommerce DB-B : Login Customer Firstname",
+        "description" : "Auto generated attribute firstname",
+        "is_enabled" : true,
+        "is_required" : false,
+        "is_encrypted" : false,
+        "created_at" : "2021-03-23 09:25:44",
+        "updated_at" : "2021-03-23 09:25:44",
+        "deleted_at" : null,
+        "_database" : "my-ecommerce-db-b"
+    }
+  ]

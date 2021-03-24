@@ -4,7 +4,11 @@ files:
   file: customer_databases.json
   id: id
   platform: mkt
-- name: contacts
-  file: contacts.json
-  id: contact_id
+- name: mkt_customer_attributes
+  file: customer_attributes.json
+  id: id
+  platform: mkt
+- name: mkt_media
+  file: media.json
+  id: id
   platform: mkt
