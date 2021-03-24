@@ -18,5 +18,6 @@ files:
   platform: mkt
 - name: trackers
   file: trackers.json
+  endpoint: http://connect-api:8080
   repeats: 10
   platform: mkt
