@@ -14,5 +14,5 @@ files:
   platform: mkt
 - name: mkt_pdpa_consent_messages
   file: pdpa_consent_messages.json
-  id: id
+  id: consent_message_id
   platform: mkt
