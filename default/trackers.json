@@ -8,9 +8,9 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
+            "_database":"my-ecommerce-db-a",
             "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
             "_version":1,
-            "_database":"my-ecommerce-db-a",
             "_allow_terms_and_conditions":true,
             "_allow_privacy_overview":true,
             "_allow_necessary_cookies":true,
@@ -29,7 +29,9 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a"
+            "_database":"my-ecommerce-db-a",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "_version":1
         }
     },
     {
@@ -41,7 +43,9 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a"
+            "_database":"my-ecommerce-db-a",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "_version":1
         }
     },
     {
@@ -54,6 +58,8 @@
         "resolution":"1680x975",
         "form_fields": {
             "_database":"my-ecommerce-db-a",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "_version":1,
             "product_id": "product0001",
             "product_name": "กระเป๋าผ้าลดโลกร้อน",
             "product_category_id": "cat0001",
