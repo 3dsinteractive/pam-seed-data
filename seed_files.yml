@@ -12,3 +12,7 @@ files:
   file: media.json
   id: id
   platform: mkt
+- name: mkt_pdpa_consent_messages
+  file: pdpa_consent_messages.json
+  id: id
+  platform: mkt
