@@ -16,3 +16,7 @@ files:
   file: pdpa_consent_messages.json
   id: consent_message_id
   platform: mkt
+- name: trackers
+  file: trackers.json
+  repeats: 1000
+  platform: mkt
