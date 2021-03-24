@@ -18,5 +18,5 @@ files:
   platform: mkt
 - name: trackers
   file: trackers.json
-  repeats: 1000
+  repeats: 10
   platform: mkt
