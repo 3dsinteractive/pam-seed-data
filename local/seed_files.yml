@@ -1,0 +1,23 @@
+version: v1
+files:
+- name: mkt_customer_databases
+  file: customer_databases.json
+  id: id
+  platform: mkt
+- name: mkt_customer_attributes
+  file: customer_attributes.json
+  id: id
+  platform: mkt
+- name: mkt_media
+  file: media.json
+  id: id
+  platform: mkt
+- name: mkt_pdpa_consent_messages
+  file: pdpa_consent_messages.json
+  id: consent_message_id
+  platform: mkt
+- name: trackers
+  file: trackers.json
+  endpoint: http://localhost:8080
+  repeats: 10
+  platform: mkt
