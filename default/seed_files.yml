@@ -21,3 +21,7 @@ files:
   endpoint: http://connect-api:8080
   repeats: 1000
   platform: mkt
+- name: mkt_triggers
+  file: segments.json
+  id: id
+  platform: mkt

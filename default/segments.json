@@ -1,0 +1,62 @@
+[
+    {
+        "id" : "1qEL2uSp6GrBXPaAvooVAagsRBr",
+        "name" : "My Ecommerce Public - Never Add To Cart",
+        "alias" : "my-ecommerce-public-never-add-to-cart",
+        "description" : "My Ecommerce Public - Never Add To Cart",
+        "is_enabled" : true,
+        "created_at" : "2021-03-25 02:33:18",
+        "updated_at" : "2021-03-25 02:33:18",
+        "deleted_at" : null,
+        "data" : [
+          {
+            "conditions" : [
+              {
+                "date_range" : [ ],
+                "is_custom_date_range" : false,
+                "last_n_months" : "3",
+                "name" : "add_to_cart"
+              }
+            ],
+            "type" : "NO_EVENTS_DATA"
+          }
+        ],
+        "is_custom" : false,
+        "delay_amount" : "",
+        "delay_unit" : "",
+        "trigger_excludes" : null,
+        "_databases" : [
+          "my-ecommerce-db-a"
+        ]
+    },
+    {
+        "id" : "1qELDdrrS8DqRdl3d6aIV8TC0YN",
+        "name" : "My Ecommerce Public - Already Add to Cart",
+        "alias" : "my-ecommerce-public-already-add-to-cart",
+        "description" : "",
+        "is_enabled" : true,
+        "created_at" : "2021-03-25 02:34:43",
+        "updated_at" : "2021-03-25 02:34:43",
+        "deleted_at" : null,
+        "data" : [
+          {
+            "conditions" : [
+              {
+                "date_range" : [ ],
+                "is_custom_date_range" : false,
+                "last_n_months" : "3",
+                "name" : "add_to_cart"
+              }
+            ],
+            "type" : "EVENTS_DATA"
+          }
+        ],
+        "is_custom" : false,
+        "delay_amount" : "",
+        "delay_unit" : "",
+        "trigger_excludes" : null,
+        "_databases" : [
+          "my-ecommerce-db-a"
+        ]
+    }
+  ]
