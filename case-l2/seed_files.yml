@@ -1,0 +1,7 @@
+version: v1
+files:
+- name: trackers
+  file: trackers-public-db.json
+  endpoint: http://connect-api:8080
+  repeats: 3
+  platform: mkt
