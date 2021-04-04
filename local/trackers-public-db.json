@@ -1,0 +1,136 @@
+[
+    {
+        "event":"allow_consent",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM Ecommerce Demo Website",
+        "page_url":"https://stg-ecommerce.pams.ai/",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "_version":2,
+            "_allow_terms_and_conditions":true,
+            "_allow_privacy_overview":true,
+            "_allow_necessary_cookies":true,
+            "_allow_preferences_cookies":true,
+            "_allow_analytics_cookies":true,
+            "_allow_social_media_cookies":true,
+            "_allow_marketing_cookies":true
+        }
+    },
+    {
+        "event":"page_view",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM Ecommerce Demo Website",
+        "page_url":"https://stg-ecommerce.pams.ai/",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
+        }
+    },
+    {
+        "event":"download",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"หน้าแรก",
+        "page_url":"https://stg-ecommerce.pams.ai/",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
+        }
+    },
+    {
+        "event":"register",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM สมัครสมาชิก",
+        "page_url":"https://stg-ecommerce.pams.ai/products/bitcoin",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
+        }
+    },
+    {
+        "event":"add_to_cart",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"การลงทุนใน Bitcoin",
+        "page_url":"https://stg-ecommerce.pams.ai/products/bitcoin",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "product_id": "product0001",
+            "product_name": "bitcoin",
+            "product_category_id": "cat0001",
+            "product_category": "การเงิน",
+            "product_items": 2,
+            "product_price": 100,
+            "total_price": 200
+        }
+    },
+    {
+        "event":"purchase",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"การลงทุนใน Bitcoin",
+        "page_url":"https://stg-ecommerce.pams.ai/products/bitcoin",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "product_id": "product0001",
+            "product_name": "bitcoin",
+            "product_category_id": "cat0001",
+            "product_category": "การเงิน",
+            "product_items": 2,
+            "product_price": 100,
+            "total_price": 200
+        }
+    },
+    {
+        "event":"purchase_success",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"การลงทุนใน Bitcoin",
+        "page_url":"https://stg-ecommerce.pams.ai/products/bitcoin",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "product_id": "product0001",
+            "product_name": "bitcoin",
+            "product_category_id": "cat0001",
+            "product_category": "การเงิน",
+            "product_items": 2,
+            "product_price": 100,
+            "total_price": 200
+        }
+    },
+    {
+        "event":"use_coupon",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"ใช้คูปอง",
+        "page_url":"https://stg-ecommerce.pams.ai/coupon/promotion-a",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "coupon_id": "promotion-a"
+        }
+    }
+]

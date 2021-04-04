@@ -1,158 +1,574 @@
 [
-{
-    "id" : "1q9UPFXo7FETvF8iIecsJDNTZOO",
-    "alias" : "my-ecommerce-db-a",
-    "name" : "My Ecommerce DB-A : Public Visitor",
-    "description" : "My Ecommerce DB-A : Public Visitor Customer Data.",
-    "type" : "PUBLIC",
-    "media_setting" : {
-        "email" : {
-            "is_key" : true,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "sms" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "line" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "facebook" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "web_notification" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "customer" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "mobile_notification_ios" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "mobile_notification_android" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        }
+    {
+          "alias" : "my-ecommerce-import",
+          "created_at" : "2021-03-24 16:39:11",
+          "deleted_at" : null,
+          "description" : "My Ecommerce - Import",
+          "id" : "1qDAnGcu92WwRbdwDqAFQk41c4e",
+          "media_setting" : {
+            "customer" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "email" : {
+              "is_encrypted" : false,
+              "is_key" : true,
+              "is_used" : true
+            },
+            "facebook" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "line" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_android" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_ios" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "sms" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "web_notification" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            }
+          },
+          "name" : "My Ecommerce - Import",
+          "type" : "IMPORT",
+          "updated_at" : "2021-03-24 16:39:11"
     },
-    "created_at" : "2021-03-23 09:21:13",
-    "updated_at" : "2021-03-23 09:21:13",
-    "deleted_at" : null
-},
-{
-    "id" : "1q9UxJ3p2F2KE5osUGbkKPNk2Bu",
-    "alias" : "my-ecommerce-db-b",
-    "name" : "My Ecommerce DB-B : Login Customer",
-    "description" : "My Ecommerce DB-B : Login Customer Database.",
-    "type" : "LOGIN",
-    "media_setting" : {
-        "email" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "sms" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "line" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "facebook" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "web_notification" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "customer" : {
-            "is_key" : true,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "mobile_notification_ios" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        },
-        "mobile_notification_android" : {
-            "is_key" : false,
-            "is_used" : true,
-            "is_encrypted" : false
-        }
+    {
+          "id" : "1qTPrTBORroqbt1xAyaSdVdXVFF",
+          "alias" : "default",
+          "name" : "Default",
+          "description" : "",
+          "type" : "PUBLIC",
+          "media_setting" : {
+            "email" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-30 10:40:04",
+          "updated_at" : "2021-03-30 10:40:04",
+          "deleted_at" : null
     },
-    "created_at" : "2021-03-23 09:25:44",
-    "updated_at" : "2021-03-23 09:25:44",
-    "deleted_at" : null
-},
-{
-    "id" : "1qDAnGcu92WwRbdwDqAFQk41c4e",
-    "alias" : "my-ecommerce-db-c",
-    "name" : "My Ecommerce DB-C : Import CRM",
-    "description" : "My Ecommerce DB-C : Import CRM Customer Data",
-    "type" : "IMPORT",
-    "media_setting" : {
-    "email" : {
-        "is_key" : true,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHhr2CdyFglGPJjNGOC1ZgTh7o",
+          "alias" : "3digits-login",
+          "name" : "3digits Login",
+          "description" : "",
+          "type" : "LOGIN",
+          "media_setting" : {
+            "email" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 07:10:17",
+          "updated_at" : "2021-04-04 06:36:20",
+          "deleted_at" : null
     },
-    "sms" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qWIwUfyWq9IOKGQcnKSZJxfWKb",
+          "alias" : "call-center-login",
+          "name" : "Call Center - Login",
+          "description" : "Call Center - Login",
+          "type" : "LOGIN",
+          "media_setting" : {
+            "email" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-31 11:12:37",
+          "updated_at" : "2021-03-31 11:12:37",
+          "deleted_at" : null
     },
-    "line" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHjCyoFhU0WDYfxcE6Ql3o7bq2",
+          "alias" : "boodabest-login",
+          "name" : "boodaBEST Login",
+          "description" : "",
+          "type" : "LOGIN",
+          "media_setting" : {
+            "email" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 07:21:25",
+          "updated_at" : "2021-04-04 06:24:55",
+          "deleted_at" : null
     },
-    "facebook" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHpMMjTomH2JZIPX3Q5ZgDaRNE",
+          "alias" : "flutter-public",
+          "name" : "Flutter Public",
+          "description" : "Flutter Public (FOR DEMO DO NOT DELETE)",
+          "type" : "PUBLIC",
+          "media_setting" : {
+            "email" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 08:12:00",
+          "updated_at" : "2021-04-04 06:25:13",
+          "deleted_at" : null
     },
-    "web_notification" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHhOx2QxNb5GvH770ScjuIg7bY",
+          "alias" : "3digits-public",
+          "name" : "3Digits Public",
+          "description" : "",
+          "type" : "PUBLIC",
+          "media_setting" : {
+            "email" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 07:06:34",
+          "updated_at" : "2021-04-04 06:35:57",
+          "deleted_at" : null
     },
-    "customer" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "alias" : "my-ecommerce-public",
+          "created_at" : "2021-03-23 09:21:13",
+          "deleted_at" : null,
+          "description" : "My Ecommerce - Public",
+          "id" : "1q9UPFXo7FETvF8iIecsJDNTZOO",
+          "media_setting" : {
+            "customer" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "email" : {
+              "is_encrypted" : false,
+              "is_key" : true,
+              "is_used" : true
+            },
+            "facebook" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "line" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_android" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_ios" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "sms" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "web_notification" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            }
+          },
+          "name" : "My Ecommerce - Public",
+          "type" : "PUBLIC",
+          "updated_at" : "2021-03-23 09:21:13"
+      },
+      {
+          "alias" : "my-ecommerce-login",
+          "created_at" : "2021-03-23 09:25:44",
+          "deleted_at" : null,
+          "description" : "My Ecommerce - Login",
+          "id" : "1q9UxJ3p2F2KE5osUGbkKPNk2Bu",
+          "media_setting" : {
+            "customer" : {
+              "is_encrypted" : false,
+              "is_key" : true,
+              "is_used" : true
+            },
+            "email" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "facebook" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "line" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_android" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "mobile_notification_ios" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "sms" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            },
+            "web_notification" : {
+              "is_encrypted" : false,
+              "is_key" : false,
+              "is_used" : true
+            }
+          },
+          "name" : "My Ecommerce - Login",
+          "type" : "LOGIN",
+          "updated_at" : "2021-03-23 09:25:44"
     },
-    "mobile_notification_ios" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHmgOT8LQBRliuYVFx0oKrNkNy",
+          "alias" : "boodabest-public",
+          "name" : "boodaBEST Public",
+          "description" : "",
+          "type" : "PUBLIC",
+          "media_setting" : {
+            "email" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 07:49:59",
+          "updated_at" : "2021-04-04 06:36:33",
+          "deleted_at" : null
     },
-    "mobile_notification_android" : {
-        "is_key" : false,
-        "is_used" : true,
-        "is_encrypted" : false
+    {
+          "id" : "1qHpIxbLfDZAwuL0jkbXwFKgnSE",
+          "alias" : "flutter-login",
+          "name" : "Flutter Login",
+          "description" : "Flutter Login (FOR DEMO DO NOT DELETE)",
+          "type" : "LOGIN",
+          "media_setting" : {
+            "email" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "sms" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "line" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "facebook" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "web_notification" : {
+              "is_key" : false,
+              "is_used" : false,
+              "is_encrypted" : false
+            },
+            "customer" : {
+              "is_key" : true,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_ios" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            },
+            "mobile_notification_android" : {
+              "is_key" : false,
+              "is_used" : true,
+              "is_encrypted" : false
+            }
+          },
+          "created_at" : "2021-03-26 08:11:33",
+          "updated_at" : "2021-04-04 06:36:47",
+          "deleted_at" : null
     }
-    },
-    "created_at" : "2021-03-24 16:39:11",
-    "updated_at" : "2021-03-24 16:39:11",
-    "deleted_at" : null
-}
 ]

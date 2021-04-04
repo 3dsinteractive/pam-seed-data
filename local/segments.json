@@ -1,0 +1,388 @@
+[
+  {
+      "id" : "1qhnPrSGb8v2ga96uHsd6eHJMcU",
+      "name" : "L1.1 My Ecom Public - Download But No Register 1 days",
+      "alias" : "l11-my-ecom-public-download-but-no-register-1-days",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 12:51:07",
+      "updated_at" : "2021-04-04 12:51:07",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "1",
+              "name" : "download",
+              "number" : "1",
+              "number_operator" : "="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "1",
+              "name" : "register",
+              "number" : "0",
+              "number_operator" : "="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "_databases" : [
+        "my-ecommerce-public"
+      ],
+      "alias" : "my-ecom-public-count-purchase-gte-1-and-lte-10-in-10-days",
+      "created_at" : "2021-04-04 09:21:03",
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "10",
+              "name" : "purchase",
+              "number" : "1",
+              "number_operator" : ">="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "10",
+              "name" : "purchase",
+              "number" : "10",
+              "number_operator" : "<="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "deleted_at" : null,
+      "description" : "",
+      "id" : "1qhNrvxAZvOTlXaFeH3NCAstXht",
+      "is_custom" : false,
+      "is_enabled" : true,
+      "name" : "L2.1 My Ecom Public - Count purchase gte 1 and lte 10 in 10 days (Active Customers)L",
+      "trigger_excludes" : null,
+      "updated_at" : "2021-04-04 09:33:48"
+  },
+  {
+      "_databases" : [
+        "my-ecommerce-public"
+      ],
+      "alias" : "my-ecom-public-count-purchase-eq-0-in-10-days",
+      "created_at" : "2021-04-04 09:19:15",
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "10",
+              "name" : "purchase",
+              "number" : "0",
+              "number_operator" : "=",
+              "parameters" : [ ]
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "operator" : "not_in",
+              "trigger" : "1qhO3Cd7Tyl2aIE1MinGXbCq2e0"
+            }
+          ],
+          "type" : "IN_OR_NOT_IN_TRIGGERS"
+        },
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "10",
+              "name" : "register",
+              "number" : "0",
+              "number_operator" : "="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "deleted_at" : null,
+      "description" : "",
+      "id" : "1qhNeHeMtgAiaz9lZo9geOq45ch",
+      "is_custom" : false,
+      "is_enabled" : true,
+      "name" : "L2.2 My Ecom Public - Count purchase eq 0 in 10 days (InActive customers)",
+      "trigger_excludes" : null,
+      "updated_at" : "2021-04-04 09:33:34"
+  },
+  {
+      "_databases" : [
+        "my-ecommerce-public"
+      ],
+      "alias" : "my-ecom-public-count-purchase-eq-0-in-30-days",
+      "created_at" : "2021-04-04 09:22:33",
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "30",
+              "name" : "purchase",
+              "number" : "0",
+              "number_operator" : "="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "last_n_days" : "30",
+              "name" : "register",
+              "number" : "0",
+              "number_operator" : "="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "deleted_at" : null,
+      "description" : "",
+      "id" : "1qhO3Cd7Tyl2aIE1MinGXbCq2e0",
+      "is_custom" : false,
+      "is_enabled" : true,
+      "name" : "L2.3 My Ecom Public - Count purchase eq 0 in 30 days (Churn customers)",
+      "trigger_excludes" : null,
+      "updated_at" : "2021-04-04 09:33:59"
+  },
+  {
+      "id" : "1qhoqqXYREXrOENSQjgaqQ344ja",
+      "name" : "L3.1 My Ecom Public - Received Promotion A",
+      "alias" : "my-ecom-public-received-promotion-a",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 13:02:56",
+      "updated_at" : "2021-04-04 13:02:56",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "attribute" : "tags",
+              "operator" : "=",
+              "value" : "promotion-a"
+            }
+          ],
+          "type" : "DEMOGRAPHICS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhpJ8b26vyJn2vwi7OZkh1PhCk",
+      "name" : "L3.2 My Ecom Public - Abandon Promotion A",
+      "alias" : "l32-my-ecom-public-abandon-promotion-a",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 13:06:41",
+      "updated_at" : "2021-04-04 13:06:41",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "operator" : "in",
+              "trigger" : "1qhoqqXYREXrOENSQjgaqQ344ja"
+            }
+          ],
+          "type" : "IN_OR_NOT_IN_TRIGGERS"
+        },
+        {
+          "conditions" : [
+            {
+              "date_range" : [
+                "2021-04-01 17:00:00",
+                "2021-04-30 16:59:59"
+              ],
+              "is_custom_date_range" : true,
+              "name" : "use_coupon",
+              "parameters" : [
+                {
+                  "operator" : "contain",
+                  "parameter" : "coupon_id",
+                  "value" : "promotion-a"
+                }
+              ]
+            }
+          ],
+          "type" : "NO_EVENTS_DATA"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhpkUsrsT286CxcDg1RLudzUPx",
+      "name" : "L5.1 My Ecom Public - Cart Abandon",
+      "alias" : "l51-my-ecom-public-cart-abandon",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 13:10:18",
+      "updated_at" : "2021-04-04 13:10:18",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "between_n_days" : "0",
+              "between_n_hours" : "3",
+              "between_n_minutes" : "0",
+              "event_after" : [
+                {
+                  "conditions" : [
+                    {
+                      "name" : "purchase"
+                    }
+                  ],
+                  "type" : "NO_EVENTS_DATA"
+                }
+              ],
+              "event_before" : [
+                {
+                  "conditions" : [
+                    {
+                      "name" : "add_to_cart"
+                    }
+                  ],
+                  "type" : "EVENTS_DATA"
+                }
+              ]
+            }
+          ],
+          "type" : "EVENT_AFTER"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhrCx2wYXHoAV71mhRJkWaa3i8",
+      "name" : "M2.1 My Ecom Public - Visit Retirement content but not purchase bitcoin",
+      "alias" : "m21-my-ecom-public-visit-retirement-content-but-not-purchase-bitcoin",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 13:22:18",
+      "updated_at" : "2021-04-04 13:22:18",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_months" : "6",
+              "value" : "เกษียณ"
+            }
+          ],
+          "type" : "PAGE_TITLE_CONTAIN"
+        },
+        {
+          "conditions" : [
+            {
+              "date_range" : [ ],
+              "is_custom_date_range" : false,
+              "last_n_months" : "6",
+              "name" : "purchase",
+              "parameters" : [
+                {
+                  "operator" : "contain",
+                  "parameter" : "product_name",
+                  "value" : "bitcoin"
+                }
+              ]
+            }
+          ],
+          "type" : "NO_EVENTS_DATA"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhrwrLZn3hDGEVcvk5gQjlXFjw",
+      "name" : "M5.1 My Ecom Public - High value customer but not member",
+      "alias" : "m51-my-ecom-public-high-value-customer-but-not-member",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 13:28:23",
+      "updated_at" : "2021-04-04 13:28:23",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "last_n_months" : "3",
+              "name" : "purchase_success",
+              "number" : "3",
+              "number_operator" : ">="
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "attribute" : "my-ecommerce-public-is-member",
+              "operator" : "contain",
+              "value" : "false"
+            }
+          ],
+          "type" : "DEMOGRAPHICS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  }
+]
