@@ -729,14 +729,7 @@
       "setting" : {
         "key_id" : "5BH9F2DD4U",
         "bundle_id" : "pams.ai.pam-demo",
-        "auth_key" : """
------BEGIN PRIVATE KEY-----
-MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgdSFplNunLTGJvELw
-XHMiw4L07U1QVfzno9D2ddUOTGWgCgYIKoZIzj0DAQehRANCAASjVnNCbIU6H6O+
-CQGITRpWmem7pzL3RdOD6Xg1U33fo0+Ho1w+TXN0TePdZSXDdbkjKIDEe1TUQ7zO
-TYGgIl8N
------END PRIVATE KEY-----
-""",
+        "auth_key" : "",
         "team_id" : "5PN9LL8N5M",
         "type" : "IOS"
       },
@@ -1015,14 +1008,7 @@ TYGgIl8N
       "setting" : {
         "key_id" : "5BH9F2DD4U",
         "bundle_id" : "pams.ai.pam-demo",
-        "auth_key" : """
------BEGIN PRIVATE KEY-----
-MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgdSFplNunLTGJvELw
-XHMiw4L07U1QVfzno9D2ddUOTGWgCgYIKoZIzj0DAQehRANCAASjVnNCbIU6H6O+
-CQGITRpWmem7pzL3RdOD6Xg1U33fo0+Ho1w+TXN0TePdZSXDdbkjKIDEe1TUQ7zO
-TYGgIl8N
------END PRIVATE KEY-----
-""",
+        "auth_key" : "",
         "team_id" : "5PN9LL8N5M",
         "type" : "IOS"
       },
@@ -1842,14 +1828,7 @@ TYGgIl8N
       "setting" : {
         "key_id" : "5BH9F2DD4U",
         "bundle_id" : "pams.ai.pam-demo",
-        "auth_key" : """
------BEGIN PRIVATE KEY-----
-MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgdSFplNunLTGJvELw
-XHMiw4L07U1QVfzno9D2ddUOTGWgCgYIKoZIzj0DAQehRANCAASjVnNCbIU6H6O+
-CQGITRpWmem7pzL3RdOD6Xg1U33fo0+Ho1w+TXN0TePdZSXDdbkjKIDEe1TUQ7zO
-TYGgIl8N
------END PRIVATE KEY-----
-""",
+        "auth_key" : "",
         "team_id" : "5PN9LL8N5M",
         "type" : "IOS"
       },
@@ -2129,14 +2108,7 @@ TYGgIl8N
       "setting" : {
         "key_id" : "5BH9F2DD4U",
         "bundle_id" : "pams.ai.pam-demo",
-        "auth_key" : """
------BEGIN PRIVATE KEY-----
-MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgdSFplNunLTGJvELw
-XHMiw4L07U1QVfzno9D2ddUOTGWgCgYIKoZIzj0DAQehRANCAASjVnNCbIU6H6O+
-CQGITRpWmem7pzL3RdOD6Xg1U33fo0+Ho1w+TXN0TePdZSXDdbkjKIDEe1TUQ7zO
-TYGgIl8N
------END PRIVATE KEY-----
-""",
+        "auth_key" : "",
         "team_id" : "5PN9LL8N5M",
         "type" : "IOS"
       },
