@@ -16,17 +16,17 @@ files:
   file: pdpa_consent_messages.json
   id: consent_message_id
   platform: mkt
-- name: trackers
-  file: trackers-public-db.json
-  endpoint: http://connect-api:8080
-  repeats: 1000
-  platform: mkt
-- name: trackers
-  file: trackers-login-db.json
-  endpoint: http://connect-api:8080
-  repeats: 10
-  platform: mkt
-- name: mkt_triggers
-  file: segments.json
-  id: id
-  platform: mkt
+# - name: trackers
+#   file: trackers-public-db.json
+#   endpoint: http://connect-api:8080
+#   repeats: 1000
+#   platform: mkt
+# - name: trackers
+#   file: trackers-login-db.json
+#   endpoint: http://connect-api:8080
+#   repeats: 10
+#   platform: mkt
+# - name: mkt_triggers
+#   file: segments.json
+#   id: id
+#   platform: mkt
