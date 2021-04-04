@@ -77,7 +77,7 @@
       "id" : "1qhNrvxAZvOTlXaFeH3NCAstXht",
       "is_custom" : false,
       "is_enabled" : true,
-      "name" : "L2.1 My Ecom Public - Count purchase gte 1 and lte 10 in 10 days (Active Customers)L",
+      "name" : "L2.1 My Ecom Public - Count purchase gte 1 and lte 10 in 10 days (Active Customers)",
       "trigger_excludes" : null,
       "updated_at" : "2021-04-04 09:33:48"
   },
