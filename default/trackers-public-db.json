@@ -8,9 +8,9 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a",
+            "_database":"my-ecommerce-public",
             "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
-            "_version":1,
+            "_version":2,
             "_allow_terms_and_conditions":true,
             "_allow_privacy_overview":true,
             "_allow_necessary_cookies":true,
@@ -29,23 +29,34 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a",
-            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
-            "_version":1
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
         }
     },
     {
-        "event":"page_view",
+        "event":"download",
         "page_language":"en-US",
         "page_referrer":"",
-        "page_title":"PAM กระเป๋าผ้าลดโลกร้อน",
+        "page_title":"หน้าแรก",
         "page_url":"https://stg-ecommerce.pams.ai/products/กระเป๋าผ้าลดโลกร้อน",
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a",
-            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
-            "_version":1
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
+        }
+    },
+    {
+        "event":"register",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM สมัครสมาชิก",
+        "page_url":"https://stg-ecommerce.pams.ai/products/กระเป๋าผ้าลดโลกร้อน",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ"
         }
     },
     {
@@ -57,9 +68,48 @@
         "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         "resolution":"1680x975",
         "form_fields": {
-            "_database":"my-ecommerce-db-a",
+            "_database":"my-ecommerce-public",
             "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
-            "_version":1,
+            "product_id": "product0001",
+            "product_name": "กระเป๋าผ้าลดโลกร้อน",
+            "product_category_id": "cat0001",
+            "product_category": "กระเป๋า",
+            "product_items": 2,
+            "product_price": 100,
+            "total_price": 200
+        }
+    },
+    {
+        "event":"purchase",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM กระเป๋าผ้าลดโลกร้อน",
+        "page_url":"https://stg-ecommerce.pams.ai/products/กระเป๋าผ้าลดโลกร้อน",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
+            "product_id": "product0001",
+            "product_name": "กระเป๋าผ้าลดโลกร้อน",
+            "product_category_id": "cat0001",
+            "product_category": "กระเป๋า",
+            "product_items": 2,
+            "product_price": 100,
+            "total_price": 200
+        }
+    },
+    {
+        "event":"purchase_success",
+        "page_language":"en-US",
+        "page_referrer":"",
+        "page_title":"PAM กระเป๋าผ้าลดโลกร้อน",
+        "page_url":"https://stg-ecommerce.pams.ai/products/กระเป๋าผ้าลดโลกร้อน",
+        "platform":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+        "resolution":"1680x975",
+        "form_fields": {
+            "_database":"my-ecommerce-public",
+            "_consent_message_id":"1qDQOyMeBv64LYnXi6dJOcZp2YQ",
             "product_id": "product0001",
             "product_name": "กระเป๋าผ้าลดโลกร้อน",
             "product_category_id": "cat0001",

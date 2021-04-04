@@ -20,11 +20,11 @@ files:
   file: segments.json
   id: id
   platform: mkt
-# - name: trackers
-#   file: trackers-public-db.json
-#   endpoint: http://connect-api:8080
-#   repeats: 1000
-#   platform: mkt
+- name: trackers
+  file: trackers-public-db.json
+  endpoint: http://connect-api:8080
+  repeats: 3
+  platform: mkt
 # - name: trackers
 #   file: trackers-login-db.json
 #   endpoint: http://connect-api:8080
