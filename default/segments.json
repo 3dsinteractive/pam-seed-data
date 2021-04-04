@@ -1,62 +1,135 @@
 [
-    {
-        "id" : "1qEL2uSp6GrBXPaAvooVAagsRBr",
-        "name" : "My Ecommerce Public - Never Add To Cart",
-        "alias" : "my-ecommerce-public-never-add-to-cart",
-        "description" : "My Ecommerce Public - Never Add To Cart",
-        "is_enabled" : true,
-        "created_at" : "2021-03-25 02:33:18",
-        "updated_at" : "2021-03-25 02:33:18",
-        "deleted_at" : null,
-        "data" : [
-          {
-            "conditions" : [
-              {
-                "date_range" : [ ],
-                "is_custom_date_range" : false,
-                "last_n_months" : "3",
-                "name" : "add_to_cart"
-              }
-            ],
-            "type" : "NO_EVENTS_DATA"
-          }
-        ],
-        "is_custom" : false,
-        "delay_amount" : "",
-        "delay_unit" : "",
-        "trigger_excludes" : null,
-        "_databases" : [
-          "my-ecommerce-db-a"
-        ]
-    },
-    {
-        "id" : "1qELDdrrS8DqRdl3d6aIV8TC0YN",
-        "name" : "My Ecommerce Public - Already Add to Cart",
-        "alias" : "my-ecommerce-public-already-add-to-cart",
-        "description" : "",
-        "is_enabled" : true,
-        "created_at" : "2021-03-25 02:34:43",
-        "updated_at" : "2021-03-25 02:34:43",
-        "deleted_at" : null,
-        "data" : [
-          {
-            "conditions" : [
-              {
-                "date_range" : [ ],
-                "is_custom_date_range" : false,
-                "last_n_months" : "3",
-                "name" : "add_to_cart"
-              }
-            ],
-            "type" : "EVENTS_DATA"
-          }
-        ],
-        "is_custom" : false,
-        "delay_amount" : "",
-        "delay_unit" : "",
-        "trigger_excludes" : null,
-        "_databases" : [
-          "my-ecommerce-db-a"
-        ]
-    }
-  ]
+  {
+      "id" : "1qhNrvxAZvOTlXaFeH3NCAstXht",
+      "name" : "L2.1 My Ecom Public - Count purchase gte 1 and lte 10 in 10 days (Active Customers)L",
+      "alias" : "my-ecom-public-count-purchase-gte-1-and-lte-10-in-10-days",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 09:21:03",
+      "updated_at" : "2021-04-04 09:33:48",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "number" : "1",
+              "number_operator" : ">=",
+              "last_n_days" : "10",
+              "name" : "purchase"
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "number" : "10",
+              "number_operator" : "<=",
+              "last_n_days" : "10",
+              "name" : "purchase"
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhNeHeMtgAiaz9lZo9geOq45ch",
+      "name" : "L2.2 My Ecom Public - Count purchase eq 0 in 10 days (InActive customers)",
+      "alias" : "my-ecom-public-count-purchase-eq-0-in-10-days",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 09:19:15",
+      "updated_at" : "2021-04-04 09:33:34",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "number" : "0",
+              "number_operator" : "=",
+              "last_n_days" : "10",
+              "name" : "purchase",
+              "parameters" : [ ]
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "trigger" : "1qhO3Cd7Tyl2aIE1MinGXbCq2e0",
+              "operator" : "not_in"
+            }
+          ],
+          "type" : "IN_OR_NOT_IN_TRIGGERS"
+        },
+        {
+          "conditions" : [
+            {
+              "number" : "0",
+              "number_operator" : "=",
+              "last_n_days" : "10",
+              "name" : "register"
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  },
+  {
+      "id" : "1qhO3Cd7Tyl2aIE1MinGXbCq2e0",
+      "name" : "L2.3 My Ecom Public - Count purchase eq 0 in 30 days (Churn customers)",
+      "alias" : "my-ecom-public-count-purchase-eq-0-in-30-days",
+      "description" : "",
+      "is_enabled" : true,
+      "created_at" : "2021-04-04 09:22:33",
+      "updated_at" : "2021-04-04 09:33:59",
+      "deleted_at" : null,
+      "data" : [
+        {
+          "conditions" : [
+            {
+              "number" : "0",
+              "number_operator" : "=",
+              "last_n_days" : "30",
+              "name" : "purchase"
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        },
+        {
+          "conditions" : [
+            {
+              "number" : "0",
+              "number_operator" : "=",
+              "last_n_days" : "30",
+              "name" : "register"
+            }
+          ],
+          "type" : "NUMBER_OF_EVENTS"
+        }
+      ],
+      "is_custom" : false,
+      "delay_amount" : "",
+      "delay_unit" : "",
+      "trigger_excludes" : null,
+      "_databases" : [
+        "my-ecommerce-public"
+      ]
+  }  
+]
