@@ -2233,7 +2233,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-a",
+      "_database" : "my-ecommerce-public",
       "updated_at" : "2021-03-23 09:21:13",
       "media_type" : {
         "is_enabled" : true,
@@ -2245,8 +2245,8 @@
         "id" : "f5d30a61-f679-4b7e-98db-f21205301523",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-A : Public Visitor email",
-      "alias" : "my-ecommerce-db-a-email",
+      "name" : "My Ecommerce Public email",
+      "alias" : "my-ecommerce-public-email",
       "id" : "1q9UPI78SXBXBa6nvR7qWRDZaCE",
       "media_type_id" : "f5d30a61-f679-4b7e-98db-f21205301523",
       "is_public_update_allow" : true,
@@ -2265,7 +2265,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-a",
+      "_database" : "my-ecommerce-public",
       "updated_at" : "2021-03-23 09:21:13",
       "media_type" : {
         "is_enabled" : true,
@@ -2277,8 +2277,8 @@
         "id" : "4d03fb26-6384-42a3-921f-1cffbe13b320",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-A : Public Visitor facebook",
-      "alias" : "my-ecommerce-db-a-facebook",
+      "name" : "My Ecommerce Public facebook",
+      "alias" : "my-ecommerce-public-facebook",
       "id" : "1q9UPLICsXCY73S2PEWHFwTKQgt",
       "media_type_id" : "4d03fb26-6384-42a3-921f-1cffbe13b320",
       "is_public_update_allow" : true,
@@ -2297,7 +2297,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-a",
+      "_database" : "my-ecommerce-public",
       "updated_at" : "2021-03-23 09:21:13",
       "media_type" : {
         "is_enabled" : true,
@@ -2309,8 +2309,8 @@
         "id" : "e38251cf-64db-4892-ae13-a9a4ab426eb6",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-A : Public Visitor line",
-      "alias" : "my-ecommerce-db-a-line",
+      "name" : "My Ecommerce Public line",
+      "alias" : "my-ecommerce-public-line",
       "id" : "1q9UPKJHZYPS0NQ1NfOVrZJ2G1K",
       "media_type_id" : "e38251cf-64db-4892-ae13-a9a4ab426eb6",
       "is_public_update_allow" : true,
@@ -2329,7 +2329,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-a",
+      "_database" : "my-ecommerce-public",
       "updated_at" : "2021-03-23 09:21:13",
       "media_type" : {
         "is_enabled" : true,
@@ -2341,8 +2341,8 @@
         "id" : "d0ca20d4-6330-46c8-9dbd-72a514e0fe13",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-A : Public Visitor web_notification",
-      "alias" : "my-ecommerce-db-a-web_notification",
+      "name" : "My Ecommerce Public web_notification",
+      "alias" : "my-ecommerce-public-web_notification",
       "id" : "1q9UPHyMfERHDff2honEr110Lz7",
       "media_type_id" : "d0ca20d4-6330-46c8-9dbd-72a514e0fe13",
       "is_public_update_allow" : true,
@@ -2359,7 +2359,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-b",
+      "_database" : "my-ecommerce-login",
       "updated_at" : "2021-03-24 16:37:55",
       "media_type" : {
         "is_enabled" : true,
@@ -2371,8 +2371,8 @@
         "id" : "4bdf597a-07ea-4bf6-acb7-f5515564197d",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-B : Login Customer customer",
-      "alias" : "my-ecommerce-db-b-customer",
+      "name" : "My Ecommerce Login customer",
+      "alias" : "my-ecommerce-login-customer",
       "id" : "1q9UxNbLIAxfJn14lQEMk2EGNHk",
       "media_type_id" : "4bdf597a-07ea-4bf6-acb7-f5515564197d",
       "is_public_update_allow" : true,
@@ -2391,7 +2391,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-b",
+      "_database" : "my-ecommerce-login",
       "updated_at" : "2021-03-24 16:37:54",
       "media_type" : {
         "is_enabled" : true,
@@ -2403,8 +2403,8 @@
         "id" : "4d03fb26-6384-42a3-921f-1cffbe13b320",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-B : Login Customer facebook",
-      "alias" : "my-ecommerce-db-b-facebook",
+      "name" : "My Ecommerce Login facebook",
+      "alias" : "my-ecommerce-login-facebook",
       "id" : "1q9UxKrTAqZwbokVM5E1dARZ4tM",
       "media_type_id" : "4d03fb26-6384-42a3-921f-1cffbe13b320",
       "is_public_update_allow" : true,
@@ -2423,7 +2423,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-b",
+      "_database" : "my-ecommerce-login",
       "updated_at" : "2021-03-24 16:37:54",
       "media_type" : {
         "is_enabled" : true,
@@ -2435,8 +2435,8 @@
         "id" : "e38251cf-64db-4892-ae13-a9a4ab426eb6",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-B : Login Customer line",
-      "alias" : "my-ecommerce-db-b-line",
+      "name" : "My Ecommerce Login line",
+      "alias" : "my-ecommerce-login-line",
       "id" : "1q9UxJehf3ws0UW9gMKrxHoJBUi",
       "media_type_id" : "e38251cf-64db-4892-ae13-a9a4ab426eb6",
       "is_public_update_allow" : true,
@@ -2457,7 +2457,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-b",
+      "_database" : "my-ecommerce-login",
       "updated_at" : "2021-03-24 16:37:55",
       "media_type" : {
         "is_enabled" : true,
@@ -2469,8 +2469,8 @@
         "id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-B : Login Customer mobile_notification ios",
-      "alias" : "my-ecommerce-db-b-mobile_notification-ios",
+      "name" : "My Ecommerce Login mobile_notification ios",
+      "alias" : "my-ecommerce-login-mobile_notification-ios",
       "id" : "1q9UxKMlbHSIIG4DZtOzwMhz8C1",
       "media_type_id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
       "is_public_update_allow" : true,
@@ -2487,7 +2487,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-c",
+      "_database" : "my-ecommerce-import",
       "updated_at" : "2021-03-24 16:39:11",
       "media_type" : {
         "is_enabled" : true,
@@ -2499,8 +2499,8 @@
         "id" : "4bdf597a-07ea-4bf6-acb7-f5515564197d",
         "deleted_at" : null
       },
-      "name" : "My Ecommerce DB-C : Import CRM customer",
-      "alias" : "my-ecommerce-db-c-customer",
+      "name" : "My Ecommerce Import",
+      "alias" : "my-ecommerce-import-customer",
       "id" : "1qDAnGe5pg6yoS5tS4kwnZQuFf9",
       "media_type_id" : "4bdf597a-07ea-4bf6-acb7-f5515564197d",
       "is_public_update_allow" : true,
@@ -2521,7 +2521,7 @@
       },
       "is_enabled" : true,
       "is_public_update_confirm" : false,
-      "_database" : "my-ecommerce-db-c",
+      "_database" : "my-ecommerce-import",
       "updated_at" : "2021-03-24 16:39:12",
       "media_type" : {
         "is_enabled" : true,
@@ -2534,7 +2534,7 @@
         "deleted_at" : null
       },
       "name" : "My Ecommerce DB-C : Import CRM mobile_notification ios",
-      "alias" : "my-ecommerce-db-c-mobile_notification-ios",
+      "alias" : "my-ecommerce-import-mobile_notification-ios",
       "id" : "1qDAnMTUuufCafmiL41UmyCLLd4",
       "media_type_id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
       "is_public_update_allow" : true,
