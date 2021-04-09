@@ -2539,5 +2539,113 @@
       "media_type_id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
       "is_public_update_allow" : true,
       "media_type_alias" : "mobile_notification"
+  },
+  {
+    "_database" : "my-ecommerce-public",
+    "alias" : "my-ecommerce-public-mobile_notification-ios",
+    "created_at" : "2021-03-23 09:25:44",
+    "deleted_at" : null,
+    "description" : "",
+    "id" : "1qx94B3RHK3Rrm2DL4AMSl9lZNW",
+    "is_enabled" : true,
+    "is_public_update_allow" : true,
+    "is_public_update_confirm" : false,
+    "is_require_token_public_update" : false,
+    "media_accounts" : null,
+    "media_type" : {
+      "alias" : "mobile_notification",
+      "created_at" : "2019-05-28 11:13:01",
+      "deleted_at" : null,
+      "description" : "Mobile Notification is media to send push notification on iOS and Android",
+      "id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
+      "is_enabled" : true,
+      "name" : "Mobile Notification",
+      "updated_at" : "2019-12-17 09:31:47"
+    },
+    "media_type_alias" : "mobile_notification",
+    "media_type_id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
+    "name" : "My Ecommerce - Public mobile_notification ios",
+    "setting" : {
+      "auth_key" : "",
+      "bundle_id" : "",
+      "key_id" : "",
+      "team_id" : "",
+      "type" : "IOS"
+    },
+    "updated_at" : "2021-04-09 07:49:09"
+  },
+  {
+    "id" : "1qx94DPqvrN4TsNOyLUmErRqpjZ",
+    "name" : "My Ecommerce - Public mobile_notification android",
+    "alias" : "my-ecommerce-public-mobile_notification-android",
+    "description" : "",
+    "is_enabled" : true,
+    "created_at" : "2021-04-09 07:48:41",
+    "updated_at" : "2021-04-09 07:49:09",
+    "deleted_at" : null,
+    "media_type_id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
+    "media_type_alias" : "mobile_notification",
+    "_database" : "my-ecommerce-public",
+    "media_type" : {
+      "id" : "24f2307e-2271-499a-96dc-ad44ead27e58",
+      "name" : "Mobile Notification",
+      "alias" : "mobile_notification",
+      "description" : "Mobile Notification is media to send push notification on iOS and Android",
+      "is_enabled" : true,
+      "created_at" : "2019-05-28 11:13:01",
+      "updated_at" : "2019-12-17 09:31:47",
+      "deleted_at" : null
+    },
+    "is_public_update_allow" : true,
+    "is_public_update_confirm" : false,
+    "is_require_token_public_update" : false,
+    "media_accounts" : null,
+    "setting" : {
+      "api_key" : "__database__",
+      "api_secret" : "__database__",
+      "type" : "ANDROID"
+    }
+  },
+  {
+    "_database" : "my-ecommerce-public",
+    "alias" : "my-ecommerce-public-sms",
+    "created_at" : "2021-03-26 08:11:33",
+    "deleted_at" : null,
+    "description" : "",
+    "id" : "1qHpIx6yl4lLDflfLAsNrjpWr9s",
+    "is_enabled" : true,
+    "is_public_update_allow" : true,
+    "is_public_update_confirm" : false,
+    "is_require_token_public_update" : false,
+    "media_accounts" : null,
+    "media_type" : {
+      "alias" : "sms",
+      "created_at" : "2019-05-28 11:13:01",
+      "deleted_at" : null,
+      "description" : "SMS is media to send SMS",
+      "id" : "2934cb67-2eb0-4e60-b6fe-e3f226ceb191",
+      "is_enabled" : true,
+      "name" : "SMS",
+      "updated_at" : "2020-07-02 06:02:15"
+    },
+    "media_type_alias" : "sms",
+    "media_type_id" : "2934cb67-2eb0-4e60-b6fe-e3f226ceb191",
+    "name" : "My Ecommerce Public sms",
+    "setting" : {
+      "bitlypage_secret" : "__password__",
+      "media_accounts" : [
+        {
+          "api_key" : "__password__",
+          "name" : "sms account",
+          "alias" : "sms-account",
+          "sender_name" : "SMS.",
+          "id" : "1qPzFVj5LtgOsvNWTCIPf4dJUWM",
+          "api_secret" : "__password__"
+        }
+      ],
+      "notify_admins" : null,
+      "provider_name" : "clicknext"
+    },
+    "updated_at" : "2021-04-06 05:31:06"
   }
 ]
